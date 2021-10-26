@@ -128,6 +128,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LophocController.cs" />
+    <Compile Include="Controllers\PeopleController.cs" />
     <Compile Include="Controllers\SinhVienController.cs" />
     <Compile Include="Data\LaiHopQuang_01Context.cs" />
     <Compile Include="Global.asax.cs">
@@ -137,9 +138,14 @@
     <Compile Include="Migrations\202110050415191_Lophoc.Designer.cs">
       <DependentUpon>202110050415191_Lophoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202110260034223_People.cs" />
+    <Compile Include="Migrations\202110260034223_People.Designer.cs">
+      <DependentUpon>202110260034223_People.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Lophoc.cs" />
     <Compile Include="Models\LTQLDb.cs" />
+    <Compile Include="Models\People.cs" />
     <Compile Include="Models\SinhVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -189,6 +195,11 @@
     <Content Include="Views\SinhVien\Create.cshtml" />
     <Content Include="Views\SinhVien\Edit.cshtml" />
     <Content Include="Views\SinhVien\Delete.cshtml" />
+    <Content Include="Views\People\Create.cshtml" />
+    <Content Include="Views\People\Delete.cshtml" />
+    <Content Include="Views\People\Details.cshtml" />
+    <Content Include="Views\People\Edit.cshtml" />
+    <Content Include="Views\People\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -209,6 +220,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202110050415191_Lophoc.resx">
       <DependentUpon>202110050415191_Lophoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110260034223_People.resx">
+      <DependentUpon>202110260034223_People.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

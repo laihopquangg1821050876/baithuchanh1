@@ -83,3 +83,4 @@ C:\Users\DELL\source\repos\LaiHopQuang_01\bin\EntityFramework.SqlServer.xml
 C:\Users\DELL\source\repos\LaiHopQuang_01\obj\Debug\LaiHopQuang_01.csproj.AssemblyReference.cache
 C:\Users\DELL\source\repos\LaiHopQuang_01\obj\Debug\LaiHopQuang_01.Migrations.Lophoc.resources
 C:\Users\DELL\source\repos\LaiHopQuang_01\obj\Debug\LaiHopQuang_01.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\LaiHopQuang_01\obj\Debug\LaiHopQuang_01.Migrations.People.resources

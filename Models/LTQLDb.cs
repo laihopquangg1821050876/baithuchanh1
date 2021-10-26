@@ -20,5 +20,7 @@ namespace LaiHopQuang_01.Models
                         .Property(x => x.Hovaten)
                         .IsUnicode(true);
         }
+
+        public System.Data.Entity.DbSet<LaiHopQuang_01.Models.People> People { get; set; }
     }
 }

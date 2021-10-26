@@ -21,5 +21,6 @@ namespace LaiHopQuang_01.Data
 
         public System.Data.Entity.DbSet<LaiHopQuang_01.Models.Lophoc> Lophoc { get; set; }
         public System.Data.Entity.DbSet<LaiHopQuang_01.Models.SinhVien> SinhVien { get; set; }
+        public System.Data.Entity.DbSet<LaiHopQuang_01.Models.People> People { get; set; }
     }
 }
